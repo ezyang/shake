@@ -1,4 +1,5 @@
 {-# LANGUAGE RecordWildCards, GeneralizedNewtypeDeriving, ScopedTypeVariables, PatternGuards #-}
+{-# LANGUAGE UndecidableSuperClasses #-}
 {-# LANGUAGE ExistentialQuantification, MultiParamTypeClasses, ConstraintKinds #-}
 
 module Development.Shake.Core(
