@@ -119,6 +119,10 @@ library
         Development.Shake.Forward
         Development.Shake.Rule
         Development.Shake.Util
+        -- EVIL
+        Development.Shake.Rules.File
+        General.String
+        Development.Shake.ByteString
 
     other-modules:
         Development.Ninja.Env
@@ -126,7 +130,6 @@ library
         Development.Ninja.Parse
         Development.Ninja.Type
         Development.Shake.Args
-        Development.Shake.ByteString
         Development.Shake.Core
         Development.Shake.CmdOption
         Development.Shake.Database
@@ -141,7 +144,6 @@ library
         Development.Shake.Progress
         Development.Shake.Resource
         Development.Shake.Rules.Directory
-        Development.Shake.Rules.File
         Development.Shake.Rules.Files
         Development.Shake.Rules.Oracle
         Development.Shake.Rules.OrderOnly
@@ -159,7 +161,6 @@ library
         General.FileLock
         General.Intern
         General.Process
-        General.String
         General.Template
         General.Timing
         Paths_shake
